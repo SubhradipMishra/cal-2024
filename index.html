@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+<div id="main">
+    <div id="header">
+        <h3>CALCULATOR</h3>
+    </div>
+    <!-- SCREEN -->
+    <div id="screen"></div>
+    <!-- KEYBOARD -->
+    <div id="keyboard">
+        <div class="items" id="clear" onclick="cl()">C</div>
+        <div class="items" id="del" onclick="del()">DEL</div>
+        <div class="items" onclick="append('%')">%</div>
+        <div class="items" onclick="append('/')">/</div>
+        <div class="items" onclick="append('7')">7</div>
+        <div class="items" onclick="append('8')">8</div>
+        <div class="items" onclick="append('9')">9</div>
+        <div class="items" onclick="append('*')">*</div>
+        <div class="items" onclick="append('4')">4</div>
+        <div class="items" onclick="append('5')">5</div>
+        <div class="items" onclick="append('6')">6</div>
+        <div class="items" onclick="append('-')">-</div>
+        <div class="items" onclick="append('1')">1</div>
+        <div class="items" onclick="append('2')">2</div>
+        <div class="items" onclick="append('3')">3</div>
+        <div class="items" onclick="append('+')">+</div>
+        <div class="items" onclick="append('.')">.</div>
+        <div class="items" onclick="append('0')">0</div>
+        <div class="items" onclick="append('#')">#</div>
+        <div class="items" id="equals" onclick="calculate()">=</div>
+    </div>
+</div>
+
+
+<script src="script.js" ></script>
+</body>
+</html>
